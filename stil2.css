@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+p {
+	
+	color:darkslategrey;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 16px;
+	line-height: 18px;
+	width: 600px;
+	background-color:honeydew;
+	padding: 20px
+}
+.pozadina1 {
+	background-image: url("pozadina.jpeg")
+}
+	ul {	/*centriranje*/
+			padding:20px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 350px;
+			} 
+	li {	display:inline; /*prikaz u jednom redu*/
+			background-color:LightCoral;
+			padding:20px;
+			border: 2px solid IndianRed;
+		}
+	li:active {background-color:IndianRed;} /*kada kliknemo na li mijenja se boja*/
+		
+	li a {	color:white; 
+			font-family: "CabinSketch", sans-serif; 
+			/*font-family: "Montserrat", sans-serif; */
+			text-transform: uppercase;
+			}
+	li a:link {text-decoration:none;}
+	li a:hover {text-decoration:underline;}	
